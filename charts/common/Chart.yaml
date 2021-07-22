@@ -1,0 +1,13 @@
+---
+apiVersion: v2
+name: common
+description: Function library for krakazyabra's microservices
+type: library
+version: 0.1.13
+keywords:
+  - krakazyabra
+  - common
+home: https://github.com/krakazyabra/microservices/tree/master/charts/common
+maintainers:
+  - name: krakazyabra
+    email: pronin.egor@gmail.com
