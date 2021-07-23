@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: "1.19.0"
+version: 1.0.0
+name: nginx
+description: Nginx Helm chart for Kubernetes
+type: application
+home: "https://github.com/krakazyabra/microservices/tree/main/charts/nginx"
+icon: https://img.icons8.com/color/452/nginx.png
+dependencies:
+  - name: common
+    version: ~0.1.13
+    repository: https://krakazyabra.github.io/microservices/
+keywords:
+  - nginx
+  - webserver
+sources:
+  - https://krakazyabra.github.io/microservices
+  - https://hub.docker.com/_/nginx/
+maintainers:
+  - name: krakazyabra
+    email: pronin.egor@gmail.com
