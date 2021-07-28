@@ -86,3 +86,11 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+rbac:
+  rules:
+    - apiGroups: ['policy']
+      resources: ['podsecuritypolicies']
+      verbs:     ['use']
+      resourceNames:
+      - cadvisor
