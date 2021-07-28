@@ -182,7 +182,7 @@ function update_port(){
   values_path="${1}"
   is_null "${PORT}" && return
   printf "  Updating port to %s\n" "${PORT}"
-  yq e ".service.port.port=\"${PORT}\"" -i "${values_path}"
+  yq e ".service.port.port=${PORT}" -i "${values_path}"
 }
 
 # main function
